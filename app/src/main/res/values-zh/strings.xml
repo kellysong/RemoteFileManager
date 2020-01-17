@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Http文件管理器</string>
+    <string name="start_server">启动服务</string>
+    <string name="stop_server">停止服务</string>
+    <string name="start_browse">在浏览器中打开</string>
+
+    <string name="server_stop_succeed">服务器停止了</string>
+    <string name="server_ip_error">没有获取到服务器IP地址</string>
+
+    <string name="no_wlan">无WLAN网络</string>
+
+</resources>

@@ -1,0 +1,31 @@
+ext {
+    plugins = [java          : 'java',
+               javaLibrary   : 'java-library',
+               android       : 'com.android.application',
+               androidLibrary: 'com.android.library',
+            ]
+
+    android = [applicationId          : 'com.sjl.rfm',
+               compileSdkVersion      : 28,
+               buildToolsVersion      : '28.0.3',
+
+               libraryMinSdkVersion   : 9,
+               libraryTargetSdkVersion: 28,
+               sampleMinSdkVersion    : 14,
+               sampleTargetSdkVersion : 22,
+
+               versionCode            : 22,
+               versionName            : '2.0.5',]
+
+
+
+    dependencies = [
+                    commonsLang       : 'org.apache.commons:commons-lang3:3.8',
+                    commonsCollections: 'org.apache.commons:commons-collections4:4.3',
+
+                    appCompat         : 'androidx.appcompat:appcompat:1.0.2',
+                    design            : 'com.google.android.material:material:1.0.0',
+
+                    loading           : 'com.yanzhenjie:loading:1.0.0',
+                    json              : 'com.alibaba:fastjson:1.1.70.android']
+}

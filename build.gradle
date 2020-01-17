@@ -1,0 +1,26 @@
+apply from: "config.gradle"
+
+buildscript {
+
+    repositories {
+        jcenter()
+        google()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+     
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+        maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
